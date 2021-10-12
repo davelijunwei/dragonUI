@@ -83,6 +83,7 @@ addTwoIntsClient.callService(request, function (result) {
   )
 })
 
+//cmd velocity.publish
 //Getting setting param value
 ros.getParams(function (params) {
   console.log(params)
